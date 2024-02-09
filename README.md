@@ -5,3 +5,5 @@ This is a port of Tailscale to the Snap store. The snapcraft.yaml is based on th
 
 I also used AI to fix some of the snapcraft.yaml, because I am inexperienced with building Snaps.
 Updates to the version of tailscale should not be needed because this version of Tailscale has a built-in updater, so theoretically, it should be fine.
+The version of Tailscale this snap comes with is 1.58.2, which is much newer compared to the older snap by seriusens, which has 1.22.1.
+To install, invoke the command "sudo snap install --edge tailscale-snap2 --devmode"
