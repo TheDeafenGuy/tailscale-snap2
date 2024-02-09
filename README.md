@@ -9,3 +9,7 @@ The version of Tailscale this snap comes with is 1.58.2, which is much newer com
 To install, invoke the command "sudo snap install --edge tailscale-snap2 --devmode"
 
 Note: To use the Tailscale CLI, you must invoke the command "tailscale-snap2" instead of just "tailscale"
+
+<a href="https://snapcraft.io/tailscale-snap2">
+  <img alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" />
+</a>
