@@ -1,0 +1,40 @@
+name: tailscale-snap2
+base: core20
+version: '1.0'
+grade: stable
+confinement: devmode
+summary: The easiest, most secure way to use WireGuard and 2FA
+description: |
+  A secure network that just works Zero config VPN.
+
+  Installs on any device in minutes, manages firewall rules for you, and works
+  from anywhere.
+architectures:
+  - build-on: amd64
+  - build-on: arm64
+  - build-on: armhf
+
+apps:
+  tailscale-snap2:
+    command: bin/tailscale
+  tailscaled:
+    command: bin/tailscaled --statedir $SNAP_DATA
+    daemon: simple
+    plugs:
+      - firewall-control
+      - network
+      - network-bind
+      - network-control
+parts:
+  tailscale:
+    source: https://github.com/tailscale/tailscale.git
+    source-tag: v1.58.2
+    plugin: go
+    build-packages:
+      - golang
+      - build-essential
+      - iptables
+    stage-packages:
+      - ca-certificates
+    organize:
+      tailscaled.service: snap/systemd/tailscaled.service  
