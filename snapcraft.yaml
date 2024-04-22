@@ -1,6 +1,6 @@
 name: tailscale-snap2
 base: core20
-version: '1.0'
+version: '1.64.2'
 grade: stable
 confinement: devmode
 summary: The easiest, most secure way to use WireGuard and 2FA
@@ -28,7 +28,7 @@ apps:
 parts:
   tailscale:
     source: https://github.com/tailscale/tailscale.git
-    source-tag: v1.58.2
+    source-tag: v1.64.2
     plugin: go
     build-packages:
       - golang
