@@ -28,7 +28,7 @@ apps:
 parts:
   tailscale:
     source: https://github.com/tailscale/tailscale.git
-    source-tag: v1.66.0
+    source-tag: v1.66.1
     plugin: go
     build-packages:
       - golang
