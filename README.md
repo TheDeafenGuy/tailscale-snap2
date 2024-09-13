@@ -15,3 +15,7 @@ Note: To use the Tailscale CLI, you must invoke the command "tailscale-snap2" in
 <a href="https://snapcraft.io/tailscale-snap2">
   <img alt="tailscale-snap2" src="https://snapcraft.io/tailscale-snap2/badge.svg" />
 </a>
+
+<h1>Updating</h1>
+
+I usually try to update the snap to the latest version of Tailscale within one day of the update to tailscale.
