@@ -18,4 +18,4 @@ Note: To use the Tailscale CLI, you must invoke the command "tailscale-snap2" in
 
 <h1>Updating</h1>
 
-I usually try to update the snap to the latest version of Tailscale within one day of the update to tailscale.
+I usually try to update the snap to the latest version of Tailscale within one day of an update to Tailscale itself.
