@@ -19,3 +19,5 @@ Note: To use the Tailscale CLI, you must invoke the command "tailscale-snap2" in
 <h1>Updating</h1>
 
 I usually try to update the snap to the latest version of Tailscale within one day of an update to Tailscale itself.
+
+Also note that I may not be able to help/fix all issues, considering how limited ChatGPT is in actually helping with the task it is given. For instance, the snap is not confined right now because I am unable ot figure out how to do that without sacrificing usability. I created this in the first place because I just wanted tailscale to work. 
