@@ -1,6 +1,6 @@
 name: tailscale-snap2
 base: core20
-version: '1.80.0'
+version: '1.80.2'
 grade: stable
 confinement: devmode
 summary: The easiest, most secure way to use WireGuard and 2FA
