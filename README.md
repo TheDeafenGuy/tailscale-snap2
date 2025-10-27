@@ -1,4 +1,9 @@
 # tailscale-snap2
+
+<h1>October 2025 Update</h1>
+<h2>I have just noticed now that there is a snap by Canonical for Tailscale, so I now see no purpose in further maintaining this snap. This is mostly because this snap has such an unfortunate name and is a hassle to use (having to issue tailscale-snap2 to use commands). The initial purpose of this snap was to provide Tailscale through a snap, since the snap "Tailscale" at the time had not been maintained for a long time. Since there is now a semi-official snap, I see no reason in providing this snap anymore. I cannot recommend the use of this snap anymore.</h2>
+<h2>I have made the snap private and have set this repository to read-only.</h2>
+
 A Snap port of Tailscale.
 
 This is a port of Tailscale to the Snap store. The snapcraft.yaml is based on the one by sergiusens, found here: https://github.com/sergiusens/tailscale 
